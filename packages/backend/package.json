@@ -18,7 +18,7 @@
     "url": "git+https://github.com/Lifuss/et-medicine-delivery-app.git"
   },
   "scripts": {
-    "start:dev": "cross-env NODE_ENV=development nodemon ./app.js"
+    "start:dev": "cross-env NODE_ENV=development nodemon ./server.js"
   },
   "bugs": {
     "url": "https://github.com/Lifuss/et-medicine-delivery-app/issues"
