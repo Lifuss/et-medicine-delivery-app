@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Arsen Hryhoriak <arsen.hryh@gmail.com>",
+  "license": "ISC",
+  "main": "lib/backend.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lifuss/et-medicine-delivery-app.git"
+  },
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=development nodemon ./app.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Lifuss/et-medicine-delivery-app/issues"
+  },
+  "homepage": "https://github.com/Lifuss/et-medicine-delivery-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
